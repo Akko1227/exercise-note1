@@ -1,3 +1,5 @@
+#Reverse Cipher
+#http://inventwithpython.com/hacking(BSD Licensed)
 #反转加密法
 message='Hello!My Baby.'
 a=''
