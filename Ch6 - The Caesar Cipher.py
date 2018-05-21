@@ -5,7 +5,10 @@
 key=13
 a='This is my secret message.'.upper()
 letters='ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ'
-a=letters[letters.find(a[0])+key]+a[1:]
+if letters.find(a[0])!=-1:
+    a=letters[letters.find(a[0])+key]+a[1:]
+else:
+    a=a
 i=1
 while(i<=len(a)-1):
     if letters.find(a[i])!=-1:
